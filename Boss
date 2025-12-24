@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .resume {
+      max-width: 800px;
+      background: #ffffff;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .title {
+      color: #555;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .section h2 {
+      font-size: 18px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    p {
+      color: #444;
+      line-height: 1.6;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    .contact {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume">
+    <h1>John Doe</h1>
+    <div class="title">Junior Software Enthusiast</div>
+
+    <div class="contact">
+      Email: john.doe@email.com | Phone: +91 90000 00000 | Location: India
+    </div>
+
+    <div class="section">
+      <h2>Profile</h2>
+      <p>
+        Motivated and curious learner with a strong interest in technology,
+        problem solving, and continuous learning. Looking for opportunities
+        to grow skills and gain real-world experience.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p>
+        <strong>Bachelor of Science</strong><br>
+        XYZ University, 2021 – 2024
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS (Basic)</li>
+        <li>JavaScript (Beginner)</li>
+        <li>Problem Solving</li>
+        <li>Communication Skills</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <p>
+        <strong>Personal Article Repository</strong><br>
+        Created a GitHub repository to publish articles using Markdown
+        and README files for knowledge sharing.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Declaration</h2>
+      <p>
+        I hereby declare that the information provided above is true
+        to the best of my knowledge.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
